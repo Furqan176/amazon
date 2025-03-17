@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style/one.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="nav w-100">
+      <nav>
+        <img src="/style/amazon.png" alt="text" class="logo" />
+        <ul>
+          <li>
+            <a href="#" class="location"
+              >Delivering to Kolkata 700001 <br /><span
+                >Update Location</span
+              ></a
+            >
+          </li>
+          <li>
+            <select name="select" id="options-select" class="select">
+              <option value="1">All Category</option>
+              <option value="2">Alexa Skills</option>
+            </select>
+          </li>
+          <li>
+            <input
+              type="text"
+              class="inp"
+              id="search"
+              placeholder="Search Amazon.in"
+            />
+            <i class="fa fa-search"></i>
+          </li>
+          <li>
+            <img src="style/flag.jpg" class="lg" alt="" />
+            <select class="select2">
+              <option value="1">EN</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+              <option value="4">Option 4</option>
+            </select>
+          </li>
+          <li>
+            <label for="" class="hello"
+              >Hello , sign in <br />
+              <b>Account & List</b></label
+            >
+            <select class="select2">
+              <option value="1"></option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+              <option value="4">Option 4</option>
+            </select>
+          </li>
+          <li>
+            <a href="#"
+              >Returns <br /><span><b> & Orders </b></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="style/cart.webp" class="cart" alt="" /><b>Cart </b>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sidebar w-100">
+      ><img src="style/justified.png" class="just" alt="" />
+      <select class="sel" id="navSelect" onchange="navigatePage()">
+        <option value="#">All</option>
+        <option value="#">About</option>
+        <option value="#">Services</option>
+        <option value="#">Contact</option>
+      </select>
+      <a href="#">Fresh</a>
+      <a href="#">MX Player</a>
+      <a href="#">Sell</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Today's deal</a>
+      <a href="#">Mobile</a>
+      <a href="#">Customer Service</a>
+      <a href="#">Electronics</a>
+      <a href="#">Prime </a>
+      <a href="#">New Releases</a>
+      <a href="#">Amazon Pay</a>
+      <a href="#">Home & Kitchen</a>
+      <a href="#">Fashion</a>
+      <a href="#">Computers</a>
+      <a href="#">Books</a>
+      <a href="#">Car & Motorbike</a>
+    </div>
+    <div class="main-container">
+    <div class="image-container">
+      <div class="image-list">
+        <div class="image_card">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"> <img
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2025/GW/BAU/Unrec/PC/934044815._CB551384116_.jpg"
+                alt=""
+              /></div>
+              <div class="swiper-slide"><img
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/pc_unrec_refresh._CB555261616_.jpg"
+                alt=""
+              /></div>
+              <div class="swiper-slide"><img
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/FEB24/PC_Hero_3000x1200_samsung_._CB549907989_.jpg
+    
+                "
+                alt=""
+              /></div>
+              <div class="swiper-slide"> <img
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Frame_4._CB551381047_.png"
+                alt=""
+              /></div>
+
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+         
+        </div>
+       
+
+       
+      </div>
+      <!-- <div class="btn-arrow"> -->
+        <!-- <button > -->
+          <!-- <i class="fa-solid fa-angle-left"></i> -->
+        <!-- </button> -->
+        <!-- <button > -->
+        <!-- </button> -->
+      </div>
+    <!-- </div> -->
+    <!-- ////////////// -->
+    <br><br>       
+        <br><br>       
+
+    <div class="card-container" id="productcontainer" style="width: 18rem">
+      <div class="card-body cards">
+        <h5 class="card-title">Appliances for your home | Up to 55% off</h5>
+        <div class="imgs mb2">
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+              class="img1"
+              alt="Air Conditioner"
+            />
+            <p class="para1 product"  style="text-align: center; font-weight: bold">
+              Air Conditioner
+            </p>
+          </a>
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+              class="img2"
+              alt=""
+            />
+            <p class="para1 product"  style="text-align: center; font-weight: bold">
+              Refrigerators
+            </p>
+          </a>
+        </div>
+        <div class="imgbottom mb2">
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_3._SY116_CB567468236_.jpg"
+              alt=""
+              class="img1"
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Curtens
+            </p>
+          </a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_186_2._SY116_CB567468236_.jpg"
+              class="img2"
+              alt=""
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Bed Sheet
+            </p>
+          </a>
+        </div>
+        <a href="#" class="card-link">See more</a>
+      </div>
+
+      <div class="card-body cards">
+        <h5 class="card-title">Starting ₹149 | Headphones</h5>
+        <div class="imgs mb2">
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg"
+              alt=""
+              class="img1"
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Starting 249 | boAt
+            </p>
+          </a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg"
+              class="img2"
+              alt=""
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Starting 349 | boult
+            </p>
+          </a>
+        </div>
+
+        <div class="imgbottom mb2">
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg"
+              alt=""
+              class="img1"
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Starting 649 | Noise
+            </p>
+          </a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg"
+              class="img2"
+              alt=""
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Starting 149 | Zebronics
+            </p></a>
+        </div>
+        <br />
+
+        <a href="#" class="card-links">See more</a>
+      </div>
+      <div class="card-body cards">
+        <h5 class="card-title">Revamp your home in style</h5>
+        <div class="imgs mb2">
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_furnishings_2._SY116_CB555624324_.jpg"
+              alt=""
+              class="img1"
+            />
+            <p class="para product"  style="text-align: center; font-weight: bold">
+              Cushion covers, bedsheets & more
+            </p>
+          </a>
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg"
+              class="img2"
+              alt=""
+            />
+            <p class="parabed  product
+            " style="text-align:  center; font-weight: bold" >
+              Figurines, vases & more
+            </p>
+          </a>
+        </div>
+
+        <div class="imgbottom mb2">
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_storage_1._SY116_CB555624324_.jpg"
+              alt=""
+              class="img1"
+          />
+          <p class="para product" style="text-align: center; font-weight: bold" >
+            Home storage
+          </p></a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_lighting_2._SY116_CB555624324_.jpg"
+              class="img2"
+              alt=""
+          /><p  class="para product" style="text-align: center; font-weight: bold">
+            Lighting solutions
+          </p></a>
+        </div>
+        <br />
+        <a href="#" class="card-links">See more</a>
+      </div>
+      <div class="card-body cards">
+        <h5 class="card-title">Automotive essentials | Up to 60% off</h5>
+        <div class="imgs mb2">
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+              alt=""
+              class="img1"
+            />
+          </a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+              class="img2"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="imgbottom mb2">
+          <a href="">
+            <img
+              src=" https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+              alt=""
+              class="img1"
+          /></a>
+          <a href="">
+            <img
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+              class="img2"
+              alt=""
+          /></a>
+        </div>
+        <a href="#" class="card-link">See more</a>
+      </div>
+    </div> <br>
+    <div class="today_deal_container">
+      <div class="today_heading">
+        <h5>No cost EMI up to 24 months | Starting ₹4,433 INR/month* <a href="#">See all offers</a></h5>
+        
+      </div>
+      <div class="swiper swip">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide bike">
+           <a href="#">
+              <img
+              src="https://m.media-amazon.com/images/I/71evfqBbcRL._AC_SY200_.jpg"
+              alt=""
+            />
+          </a> 
+    
+        <a href="#">    <img
+            src="https://m.media-amazon.com/images/I/71Tn3VtBGXL._AC_SY200_.jpg"
+            alt=""
+          />
+        </a>
+    
+        <a href="#"> <img
+          src="https://m.media-amazon.com/images/I/71Tn3VtBGXL._AC_SY200_.jpg"
+          alt=""
+        />
+      </a> 
+       <a href=""> <img
+              src="https://m.media-amazon.com/images/I/71SZIKLsKKL._AC_SY200_.jpg"
+              alt=""
+            /> 
+          </a>
+           <a href=""> <img
+              src="https://m.media-amazon.com/images/I/71w1jomhLNL._AC_SY200_.jpg"
+              alt=""
+            />
+          </a>
+          </div>
+          <div class="swiper-slide bike"> 
+            <a href="#"><img
+            src="https://m.media-amazon.com/images/I/51a0T2AQnJL._AC_SY200_.jpg"
+            alt=""
+          />
+        </a>
+        <a href="#">
+          <img
+          src="https://m.media-amazon.com/images/I/71FqTzf48uL._AC_SY200_.jpg"
+          alt=""
+        />
+      </a>
+      <a href="#">
+        <img
+        src="https://m.media-amazon.com/images/I/71kmRi9pA8L._AC_SY200_.jpg"
+        alt=""
+      /> 
+    </a>
+    
+    <a href="#">
+      <img
+        src="https://m.media-amazon.com/images/I/31QKYTH4pTL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/71w1jomhLNL._AC_SY200_.jpg"
+      alt=""
+    />
+    </a>
+    
+        </div>
+          <div class="swiper-slide bikes"> <a href="#"><img
+            src="https://m.media-amazon.com/images/I/51a0T2AQnJL._AC_SY200_.jpg"
+            alt=""
+          />
+        </a>
+        <a href="#">
+          <img
+          src="https://m.media-amazon.com/images/I/71FqTzf48uL._AC_SY200_.jpg"
+          alt=""
+        />
+      </a>
+      <a href="#">
+        <img
+        src="https://m.media-amazon.com/images/I/71kmRi9pA8L._AC_SY200_.jpg"
+        alt=""
+      /> 
+    </a>
+    
+    <a href="#">
+      <img
+        src="https://m.media-amazon.com/images/I/31QKYTH4pTL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/71w1jomhLNL._AC_SY200_.jpg"
+      alt=""
+    />
+    </a></div>
+        
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+<!-- //// kitchen product -->
+<br>
+<div class="today_deal_container">
+  <div class="today_heading">
+    <h5>Up to 60% off | Curated kitchen products | Amazon Launchpad  <a href="#">See all </a></h5>
+    
+  </div>
+  <div class="swiper swip">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide kitchen ">
+       <a href="#">
+          <img
+          src="https://m.media-amazon.com/images/I/31VldWsmXEL._AC_SY200_.jpg"
+          alt=""
+        />
+      </a> 
+
+    <a href="#">    <img
+        src="https://m.media-amazon.com/images/I/615QvmFd+tL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+
+    <a href="#"> <img
+      src="https://m.media-amazon.com/images/I/71RWtDAMFEL._AC_SY200_.jpg"
+      alt=""
+    />
+  </a> 
+   <a href="#"> <img
+          src="https://m.media-amazon.com/images/I/71MXSFRW87L._AC_SY200_.jpg"
+          alt=""
+        /> 
+      </a>
+       <a href=""> <img
+          src="https://m.media-amazon.com/images/I/71ve6txXqaL._AC_SY200_.jpg"
+          alt=""
+        />
+      </a>
+      <a href="#"><img
+        src="https://m.media-amazon.com/images/I/81zSKCAWjbL._AC_SY200_.jpg"
+        alt=""
+      />
+      <a href="#">
+        <img
+        src="https://m.media-amazon.com/images/I/71qHbjzM9ZL._AC_SY200_.jpg"
+        alt=""
+      />
+      <a href="#">
+        <img
+        src="https://m.media-amazon.com/images/I/71qHbjzM9ZL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+      </div>
+      <div class="swiper-slide kitchen2 "> 
+        <a href="#"><img
+        src="https://m.media-amazon.com/images/I/61t-pix0hhL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/61DzpraJwUL._AC_SY200_.jpg"
+      alt=""
+    />
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/611lyTt-JfL._AC_SY200_.jpg"
+      alt=""
+    />
+  </a>
+  <a href="#">
+    <img
+    src="https://m.media-amazon.com/images/I/810FBPvGTML._AC_SY200_.jpg"
+    alt=""
+  /> 
+</a>
+
+<a href="#">
+  <img
+    src="https://m.media-amazon.com/images/I/61OS-ba2yvL._AC_SY200_.jpg"
+    alt=""
+  />
+</a>
+<a href="#">
+  <img
+  src="https://m.media-amazon.com/images/I/810FBPvGTML._AC_SY200_.jpg"
+  alt=""
+/> 
+</a>
+
+    </div>
+      
+    
+    </div>
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+</div>
+
+    <!-- ////////////// --><br><br><br>
+     <br><br><br><br><br><br><br><br><br>
+    <div class="card-container" id="productcontainer" style="width: 18rem">
+
+    <div class="card-body cards">
+      <h5 class="card-title product">Customer's Most-Loved products</h5>
+      <div class="imgs mb2">
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/519YnJNsrVL._AC_SY145_.jpg"
+            class="img1"
+            alt="book"
+          />
+          
+        </a>
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/71xVpjIdHYL._AC_SY145_.jpg"
+            class="img2"
+            alt="photo"
+          />
+          
+        </a>
+      </div>
+      <div class="imgbottom mb2" >
+        <a href="">
+          <img
+            src=" https://m.media-amazon.com/images/I/614GVH+B8HL._AC_SY145_.jpg"
+            alt=""
+            class="img1"
+          />
+          
+        </a>
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/81q1GCE3fJL._AC_SY145_.jpg"
+            class="img2"
+            alt=""
+          />
+          
+        </a>
+      </div>
+      <a href="#" class="card-link">Explore more</a>
+    </div>
+
+    <div class="card-body cards">
+      <h5 class="card-title">Under ₹799 | Combo packs from Amazon brands</h5>
+      <div class="imgs mb2">
+        <a href="">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2025/GW/QC/wk11/desktop_-_low_res._SY304_CB549428167_.jpg"
+            class="img11"
+            alt="shirt"
+          />
+          
+        </a>
+         <!-- <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/71xVpjIdHYL._AC_SY145_.jpg"
+            class="img2"
+            alt="photo"
+          />
+          
+        </a> -->
+      </div>
+      <!-- <div class="imgbottom mb2">
+        <a href="">
+          <img
+            src=" https://m.media-amazon.com/images/I/614GVH+B8HL._AC_SY145_.jpg"
+            alt=""
+            class="img1"
+          />
+          
+        </a>
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/81q1GCE3fJL._AC_SY145_.jpg"
+            class="img2"
+            alt=""
+          />
+          
+        </a>
+      </div> -->
+      <a href="#" class="card-link">See all offers</a>
+    </div>
+    <div class="card-body cards">
+      <h5 class="card-title">Up to 75% off | Wall arts, painting, decor & more | Small</h5>
+      <div class="imgs mb2">
+        <a href="">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/Img24/SMB/GW/December/Desktop_CC_Decor_1x._SY304_CB540581077_.jpg"
+            class="img11"
+            alt="decor"
+          />
+          
+        </a>
+        </div>
+        <a href="#" class="card-link">See all offers</a>
+    </div>
+
+    <div class="card-body cards" id="productcontainer">
+      <h5 class="card-title">Best Sellers in Sports, Fitness & Outdoors</h5>
+      <div class="imgs mb2">
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY170_.jpg"
+            class="img1"
+            alt="gym"
+          />
+          
+        </a>
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/61Av1lptLkL._AC_SY170_.jpg"
+            class="img2"
+            alt="photo"
+          />
+          
+        </a>
+      </div>
+      <div class="imgbottom mb2">
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/81feGML0NAL._AC_SY170_.jpg"
+            alt=""
+            class="img1"
+          />
+          
+        </a>
+        <a href="">
+          <img
+            src="https://m.media-amazon.com/images/I/61RpRYFb2wL._AC_SY170_.jpg"
+            class="img2"
+            alt=""
+          />
+          
+        </a>
+      </div>
+      <!-- <a href="#" class="card-link">Explore more</a> -->
+    </div>
+
+   
+</div> <br> <br>
+
+<div class="today_deal_container" id="productcontainer">
+  <div class="today_heading">
+    <h5> Min. 50% off | Unique home finds | Amazon Brands & more <a href="#">See all </a></h5>
+    
+  </div>
+
+<div class="swiper swip">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide kitchen ">
+     <a href="#">
+        <img
+        src="https://m.media-amazon.com/images/I/61vihvwHdBL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a> 
+
+  <a href="#">    <img
+      src="https://m.media-amazon.com/images/I/61OGSOu3cfL._AC_SY200_.jpg"
+      alt=""
+    />
+  </a>
+
+  <a href="#"> <img
+    src="https://m.media-amazon.com/images/I/51Oq79-eK-L._AC_SY200_.jpg"
+    alt=""
+  />
+</a> 
+ <a href="#"> <img
+        src="https://m.media-amazon.com/images/I/71NG2gRv0bL._AC_SY200_.jpg"
+        alt=""
+      /> 
+    </a>
+     <a href=""> <img
+        src="https://m.media-amazon.com/images/I/61GfiZngyIL._AC_SY200_.jpg"
+        alt=""
+      />
+    </a>
+    <a href="#"><img
+      src="https://m.media-amazon.com/images/I/61V0Xjjm9yL._AC_SY200_.jpg"
+      alt=""
+    />
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/61ovtz51aoL._AC_SY200_.jpg"
+      alt=""
+    />
+    <a href="#">
+      <img
+      src="https://m.media-amazon.com/images/I/51Wjei45NzL._AC_SY200_.jpg"
+      alt=""
+    />
+  </a>
+    </div>
+    <div class="swiper-slide kitchen2 "> 
+      <a href="#"><img
+      src="https://m.media-amazon.com/images/I/51Wjei45NzL._AC_SY200_.jpg"
+      alt=""
+    />
+  </a>
+  <a href="#">
+    <img
+    src="https://m.media-amazon.com/images/I/513D065GkoL._AC_SY200_.jpg"
+    alt=""
+  />
+  <a href="#">
+    <img
+    src="https://m.media-amazon.com/images/I/51grqgqlvpL._AC_SY200_.jpg"
+    alt=""
+  />
+</a>
+<a href="#">
+  <img
+  src="https://m.media-amazon.com/images/I/51zEqsqVN-L._AC_SY200_.jpg"
+  alt=""
+/> 
+</a>
+
+<a href="#">
+<img
+  src="https://m.media-amazon.com/images/I/61OS-ba2yvL._AC_SY200_.jpg"
+  alt=""
+/>
+</a>
+<a href="#">
+<img
+src="https://m.media-amazon.com/images/I/810FBPvGTML._AC_SY200_.jpg"
+alt=""
+/> 
+</a>
+
+  </div>
+    
+  
+  </div>
+  <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</div>
+<footer>
+  <div class="foot">
+    <div class="back"><p>Back to top</p></div>
+    <div class="menu">
+    <div class="menu1">
+    <h5>Get to know <br> Us</h5>
+    <p><a href="#">About Amazon </a> </p>
+    <p><a href="#">Press Releases </a> </p>
+    <p><a href="#">Amazon Science </a></p>
+
+  </div>
+  <div class="menu2">
+    <h5>Connect with <br> Us</h5>
+    <p><a href="">Facebook </a></p>
+    <p><a href="#">Twitter </a></p>
+    <p><a href="#">Instagram </a></p>
+  </div>
+  <div class="menu3">
+    <h5>Make Money with Us</h5>
+    <p><a href="#">Sell on Amazon </a> </p>
+    <p><a href="#">Sell under Amazon <br>Accelerator </a></p>
+    <p><a href="#">Protect and Build Your Brand </a></p>
+    <p><a href="#">Amazon Global Selling </a></p> 
+    <!-- <p> <a href="#">Supply to Amazon </a></p> -->
+    <p><a href="#">Become an Affliate </a></p>
+    <p><a href="#">Fulfilment by Amazon</a></p> 
+
+
+
+
+
+  </div>
+  <div class="menu4">
+    <h5>Let us Help You</h4>
+    <p>Your Account </p>
+    <p>Returns Centre</p>
+    <p>Recalls and Product Safety Alerts</p>
+   <p><a href="#">100% Purchase Protection</a></p> 
+    <p><a href="#">Amazon App Download</a></p>
+   <p><a href="#">Help</a></p> 
+  </div>
+</div>
+  <p><hr></p>
+  <div class="end">
+  <img src="/style/amazon3.png" alt="text" class="logo" />
+  <select name=""" id="" class="sel">
+    <option value="english">English</option>
+    <option value="Hindi">Hindi</option>
+  </select>
+    <button class="btn">
+      <img src="style/flag.jpg" class="lg" alt="" />
+      India
+    </button>
+    
+</div>
+  </div>
+
+  
+  
+</footer>
+      <div class="foots">
+        <div class="menus">
+        <div class="menu1">
+        <p><a href="#"><b>AbeBooks</b> <br>Books,art <br> & collectibles</a></p>
+        <p><a href="#"><b>Shopbop</b> <br>Designer <br>Fashion Brands</a></p>
+
+    
+      </div>
+      <div class="menu2">
+        <p>
+          <a href="#"><b>Amazon Web Services</b> <br>
+          Scalable Cloud <br>
+          Computing Services </a></p>
+        <p><a href="#"><b>Amazon Business</b> <br>Everything  For <br>Your Business  </a></p>
+       
+      </div>
+      <div class="menu3">
+        <p><a href=""><b>Audible</b> <br>
+          Download <br>
+          Audio Books </a></p>
+        <p><a href="#">
+         <b> Prime Now  </b><br>
+          2-Hour Delivery <br>
+          on Everyday Items </a> </p>
+    
+    
+      </div>
+      <div class="menus4">
+        <p>
+        <a href="#"><br> <b>  IMDb </b> <br>
+          Movies, TV <br>
+          & Celebrities </a></p>
+        <p><a href=""><b>Amazon Prime Music </b> <br>
+          100 million songs, ad- <br>free <br>
+          Over 15 million podcast <br> episodes  </a></p>
+        
+      </div>
+      
+    </div>
+    <div class="last">
+      <ul>
+        <li><a href="#"> Conditions of Use & Sale</a></li>
+        <li><a href="#">Privacy Notice</a></li>
+        <li><a href="#">
+        Interest-Based Ads </a></li>
+      </ul>
+     
+
+    </div>   
+    
+    <div class="about">
+      <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+      
+
+    </div>   
+   
+     
+
+
+ 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
